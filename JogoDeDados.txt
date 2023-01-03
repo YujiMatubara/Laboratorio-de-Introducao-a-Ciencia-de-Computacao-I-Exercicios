@@ -1,0 +1,29 @@
+Jogo de Dados
+Andreia, Bruno e Cristina são três amigos e resolveram jogar um jogo de dados. As regras são as seguintes: em sua vez, cada um deles joga dois dados e a soma das faces será a quantidade de pontos que ele fez, quem fizer a maior quantidade de pontos, ganha. Além disso, para evitar empates, eles inventaram uma nova regra, caso alguém faça a mesma quantidade de pontos de um de seus amigos, essa pessoa joga os dados novamente até que faça uma pontuação diferente.
+
+Os três amigos ficaram tão entretidos com o jogo que nenhum deles quer parar para descobrir quem ganhou e por isso pediram sua ajuda.
+
+Você receberá na entrada de texto padrão seis números inteiros, cada par representando o valor dos dados jogados por Andreia, Bruno e Cristina, respectivamente (é garantido que a soma de todos os pares é distinta). Você deverá então escrever um programa que imprime os nomes dos três amigos, um em cada linha, na ordem de pontuação para que saibam quem ganhou o jogo.
+
+Entretanto, há mais um problema: os garotos ficaram tão animados para ganhar o jogo que podem não ter sido totalmente honestos a respeito do valor que tiraram nos dados. Sabendo que o jogo acontece com dois dados de seis faces, imprima na tela apenas uma mensagem dizendo "Alguem trapaceou nesse jogo" em vez de imprimir o ranking dos três amigos.
+
+Importante: Você só poderá utilizar a estrutura condicional if para resolver esse problema.
+
+Exemplo de Entrada e Saída
+Entrada:
+3 4
+1 1
+6 2
+
+Saída:
+Cristina
+Andreia
+Bruno
+
+Entrada:
+3 4
+1 1
+7 2
+
+Saída:
+Alguem trapaceou nesse jogo

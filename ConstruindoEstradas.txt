@@ -1,0 +1,24 @@
+Construindo estradas
+O Brasil acabou de comprar um novo território, onde será construído o mais novo estado brasileiro. Ao contrário dos outros estados, esse terá toda sua infraestrutura planejada, e pediram a sua ajuda para organizar isso. Esse estado é dividido em N cidades e, a princípio, não existe nenhuma estrada ligando qualquer uma delas. Seu trabalho será cadastrar novas estradas construídas ou responder se existe uma estrada ligando duas cidades específicas.
+
+Na primeira linha de entrada você receberá dois inteiros: N (N <= 1000) representando o número de cidades, e Q sendo o número de operações que você deverá realizar. Seguem Q linhas, e cada uma delas conterá um caracter C e dois inteiros X e Y. O caracter pode ser 'c' ou 'v', que indicam operações de cadastro ou verificação, respectivamente. Os inteiros X e Y correspondem às cidades em questão (as cidades são numeradas de 0 a N-1).
+
+Para sua implementação utilize uma combinação entre vetores estáticos e dinâmicos, isto é, você terá uma matriz com um número fixo de linhas (parte estática), onde cada linha possui um número variável de colunas (parte dinâmica). Assim, você deverá declarar algo como int *mat[N].
+
+Note que todas as estradas construídas serão de mão dupla, então adicionar uma estrada entre X e Y implica em adicionar entre Y e X. Assim, no caso de um cadastro, você deverá fazer um realloc em duas linhas da matriz para acrescentar as novas cidades e, para isso, você precisa saber o tamanho de cada uma delas. (Sugestão: tenha um vetor auxiliar estático onde a posição v[i] representa quantas colunas a linha i possui até aquele momento.)
+
+No caso de uma verificação, você deverá escrever uma linha "Existe uma estrada entre [X] e [Y]." caso ela exista ou "Não existe uma estrada entre [X] e [Y]." caso contrário (As variáveis entre [] devem ser substituídos por seus respectivos valores, cheque o exemplo de saída para melhor compreensão).
+
+Importante: Não se esqueça de liberar a memória alocada.
+
+Exemplo de Entrada e Saída
+Entrada:
+5 4
+c 0 1
+v 1 0
+v 1 2
+c 3 4
+
+Saída:
+Existe uma estrada entre 1 e 0.
+Nao existe uma estrada entre 1 e 2.

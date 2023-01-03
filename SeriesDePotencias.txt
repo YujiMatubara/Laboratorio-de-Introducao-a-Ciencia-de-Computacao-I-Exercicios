@@ -1,0 +1,20 @@
+Séries de Potências
+Marcelo adora geometria e aprendeu que é possível calcular os valores trigonométricos sem auxílio da calculardora ou das bibliotecas matemáticas da sua linguagem de programação favorita. Através da série de potências, é possível obter os valores do coseno apenas realizando a soma do link abaixo:
+
+http://www.monografias.com/trabajos82/geometria-trigonometria/image089.png
+
+Para ter certeza que os valores obtidos estão de acordo com os valores reais, Marcelo resolveu comparar a sua implementação de uma das séries e verificar seu valor com o obtido por uma função de uma biblioteca matemática.
+
+Como amigo de Marcelo, você resolveu ajudá-lo com essa tarefa. Como entrada, o seu programa deve receber um inteiro n seguido de um valor em ponto flutuante x e calcular o valor de cos(x), note que x é dado em radianos, através da série de potência com n termos (isto é, o somatório irá de 0 até n-1). O resultado final deve ser o valor obtido pela séria para coseno de x e o valor absoluto do erro obtido através da série de potência e a função cos() da biblioteca math.h. Imprima os dois valores com 6 casas decimais de precisão, o segundo em notação científica e um em cada linha da saída.
+
+Importante: Não será permitida a utilização de vetores e nem a criação de outras funções além da main para a resolução desse exercício.
+
+Mais importante: Usem double em vez de float!
+
+Exemplo de Entrada e Saída
+Entrada:
+2 0.57
+
+Saída:
+0.837550
+4.350975e-03

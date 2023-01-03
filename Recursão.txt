@@ -1,0 +1,27 @@
+Recursão
+Neste exercício você deverá criar duas funções recursivas. A primeira servirá para calcular a soma dos elementos de um vetor e a segunda para calcular a potência (P) de um número X, ou seja XP.
+
+A entrada do programa será formada por uma linha contendo dois números inteiros, N (N<100) e P (P<=10). N é a quantidade de números inteiros que serão fornecidos na próxima linha da entrada. P é um valor de potência. A seguir, haverá uma linha contendo N elementos inteiros Xi (0 < i <= N, Xi <= 67). Você deverá calcular XP para cada um desses Xi.
+
+Note que você poderá se deparar com valores até 6710, valor grande demais para ser armazenado em uma variável do tipo int. Assim, você deverá buscar um tipo alternativo para resolver o problema (não utilize variáveis de ponto flutuante, pois ocasionarão imprecisões nas contas).
+
+O seu programa deverá utilizar as duas funções criadas e fornecer como saída duas mensagens:
+
+Soma: S
+Potencias: X1 X2 X3 ... XN
+
+onde S é a soma dos N elementos fornecidos e X1, X2, ... XN é a potência (XP) de cada um dos N elementos fornecidos, na ordem em que foram lidos.
+
+Dicas:
+
+Pense no problema recursivamente. A solução é simples e utiliza apenas uma função para cada operação (soma e potência);
+A soma dos elementos de um vetor pode ser definida como um elemento desse vetor mais a soma dos N-1 elementos restantes;
+Um número X elevado à potência P (XP) pode ser definida como X * XP-1;
+Exemplo de Entrada e Saída
+Entrada:
+4 2
+3 3 4 7
+
+Saída:
+Soma: 17
+Potencias: 9 9 16 49

@@ -1,0 +1,14 @@
+Russia#5@0#Arabia Saudita
+Egito#0@1#Uruguai
+Marrocos#0@1#Ira
+Portugal#3@3#Espanha
+Franca#2@1#Australia
+Argentina#1@1#Islandia
+Peru#0@1#Dinamarca
+Croacia#2@0#Nigeria
+Costa Rica#0@1#Servia
+Alemanha#0@1#Mexico
+Brasil#1@1#Suica
+Suecia#1@0#Coreia do Sul
+Belgica#3@0#Panama
+Tunisia#1@2#Inglaterra

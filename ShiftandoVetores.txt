@@ -1,0 +1,21 @@
+Shiftando vetores
+Para este exercício, você receberá na primeira linha de entrada dois números inteiros: N e K (N,K <= 10⁵). Na segunda linha de entrada haverá N inteiros, que correspondem ao vetor de entrada. Sua tarefa será shiftar o vetor de entrada em exatamente K posições, para a direita caso K seja positivo e para a esquerda caso contrário.
+
+Shiftar um vetor em uma posição para a direita, por exemplo, significa que todos os elementos serão transladados uma posição para a direita, com exceção do último, que se transformará no primeiro elemento do vetor (verifique os exemplos de entrada e saída para melhores esclarecimentos).
+
+A saída esperada é o vetor resultante após a operação de shift (imprima todos os números seguidos de espaços, em uma única linha).
+
+Exemplo de Entrada e Saída
+Entrada:
+5 3
+1 2 3 4 5
+
+Saída:
+3 4 5 1 2
+
+Entrada:
+5 -3
+1 2 3 4 5
+
+Saída:
+4 5 1 2 3

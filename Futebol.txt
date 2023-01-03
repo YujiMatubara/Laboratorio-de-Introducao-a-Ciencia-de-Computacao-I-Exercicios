@@ -1,0 +1,66 @@
+Futebol
+Futebol é um dos esporte mais populares do mundo. Como todos sabem, o Brasil é o país que tem mais títulos na Copa do Mundo (cinco deles: 1958, 1962, 1970, 1994 e 2002). Como o nosso torneio nacional tem muitas equipes, acompanhar a classificação dos times pode se tornar uma tarefa difícil.
+
+Sua tarefa é bem simples: escrever um programa que recebe na entrada padrão (stdin)
+
+O nome de um arquivo texto, no qual irão conter os resultados dos jogos;
+O número de equipes participando do campeonato;
+O nome de cada equipe disputando o campeonato, uma por linha;
+O número de jogos da competição.
+Como saída você deverá informar a equipe classificada em primeiro e último lugar, nesta ordem, em duas linhas distintas. As equipes são classificadas de acordo com estas regras (nesta ordem):
+
+Mais pontos ganhos.
+Mais vitórias.
+Maior saldo de gol (ou seja, gols marcados - gols sofridos)
+Mais gols marcados.
+Menos jogos realizados
+Ordem lexicográfica.
+O resultado de cada jogo é dado em uma linha do arquivo texto, seguindo o formato Time1#X@Y#Time2 (sem espaços), sendo Time1 o nome do primeiro time, Time2 o nome do segundo, X o número de gols marcados pelo primeiro time e Y pelo segundo. Os caracteres especiais estarão sempre presentes nessas posições, garantindo o mesmo formato para todos os jogos.
+
+Uma equipe ganha um jogo se marcar mais gols do que seu oponente. Obviamente, uma equipe perde um jogo se marca menos gols. Quando ambas as equipes marcam o mesmo número de gols, há um empate. Uma equipe ganha 3 pontos para cada vitória, 1 ponto para cada empate e 0 ponto para cada derrota.
+
+DICAS: para extrair as informações dos resutados dos jogos, você pode:
+
+Utilizar a função strtok de string.h, que divide uma string a partir de caracteres específicos (tokens). Leia a documentação desta função para mais detalhes;
+Criar uma versão modificada da função readline, capaz de ler uma string até encontrar caracter coringa específico. Use essa função para ler os nomes dos times.
+Exemplo de Entrada e Saída
+Entrada:
+copa.txt
+32
+Russia
+Uruguai
+Egito
+Arabia Saudita
+Espanha
+Portugal
+Ira
+Marrocos
+Franca
+Peru
+Dinamarca
+Australia
+Argentina
+Croacia
+Nigeria
+Islandia
+Brasil
+Suica
+Costa Rica
+Servia
+Alemanha
+Mexico
+Coreia do Sul
+Suecia
+Belgica
+Inglaterra
+Tunisia
+Panama
+Polonia
+Colombia
+Japao
+Senegal
+14
+
+Saída:
+Russia
+Arabia Saudita

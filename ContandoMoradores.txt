@@ -1,0 +1,28 @@
+Contando Moradores
+Uma corretora de imóveis está inaugurando um condomínio novo, onde ainda não existe nenhum morador. Esse condomínio pode ser representado por uma matriz NxM, onde cada posição representa um prédio. No primeiro dia de vendas, a corretora não quer perder a conta de quantos moradores compraram vagas em cada um dos prédios e, para isso, pediram a sua ajuda.
+
+Na primeira linha de entrada você receberá três inteiros: N, M e Q, correspondentes às dimensões do condomínio (N x M) e o número de moradores que passaram pelo stand de vendas (Q). Nas próximas Q linhas haverá dois inteiros I e J, que correspondem à posição do prédio comprado cuja vaga foi comprada por aquele comprador (ela é 0-based, isto é, a posição superior esquerda é a [0][0], enquanto a inferior direita é [n-1][m-1].
+
+Há outro problema, os funcionários da corretora acabaram misturando os dados daquele condomínio e, portanto, alguns dados são inválidos, e não devem ser considerados. Esses dados inválidos são aqueles que estiverem fora das dimensões da matriz.
+
+Você deve imprimir na saída a matriz que representa o condomínio ao final do dia de vendas, isto é, cada elemento da matriz representa quantos moradores no prédio daquela posição.
+
+Importante:
+
+-- Utilize alocação dinâmica para alocar a matriz.
+
+-- Faça uma função que libere a memória alocada ao final do código seguindo o padrão: 
+    void free_matrix(int **mat, int n)
+
+-- Faça uma função que incremente a posição [i][j] da matriz seguindo o padrão: 
+    void update(int **mat, int n, int m, int i, int j)
+Exemplo de Entrada e Saída
+Entrada:
+2 3 3
+0 0
+1 1
+2 2
+
+Saída:
+1 0 0
+0 1 0

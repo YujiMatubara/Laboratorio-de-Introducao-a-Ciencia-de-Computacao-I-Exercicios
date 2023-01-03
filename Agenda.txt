@@ -1,0 +1,65 @@
+Agenda
+Seu objetivo para este exercício será desenvolver uma espécie de agenda. Você receberá na primeira linha de entrada um inteiro N, indicando o número de instâncias da sua agenda, isto é, quantas pessoas ela deverá guardar.
+
+A seguir, virão N conjuntos de 5 linhas, onde a primeira linha conterá o nome completo da pessoa, a segunda conterá sua altura em metros, a terceira seu peso em quilogramas, a quarta um caracter ('F' ou 'M') indicando o gênero e a quinta um número inteiro positivo que representa o id daquela pessoa. Você deverá armazenar todos esses dados utilizando uma struct.
+
+Após isso, serão fornecidos vários ids válidos, um por linha, finalizando com uma linha contendo -1. Para cada id fornecido, você deverá responder às seguintes perguntas em três linhas distintas:
+
+Qual o nome da pessoa a quem pertence esse id?
+Qual o IMC da pessoa a quem pertence esse id?
+Em qual categoria ela se encaixa?
+Para determinar a categoria de uma pessoa utilize as seguintes tabelas, que diferenciam homens e mulheres:
+
+IMC feminino [Categoria]
+
+imc < 19,1 [Abaixo do peso]
+
+19,1 <= imc < 25,8 [Peso ideal]
+
+25,8 <= imc < 27,3 [Pouco acima do peso]
+
+27,3 <= imc < 32,3 [Acima do peso]
+
+32,4 <= imc [Obesidade]
+
+IMC masculino [Categoria]
+
+imc < 20,7 [Abaixo do peso]
+
+20,7 <= imc < 26,4 [Peso ideal]
+
+26,4 <= imc < 27,8 [Pouco acima do peso]
+
+27,8 <= imc < 31,1 [Acima do peso]
+
+31,1 <= imc [Obesidade]
+
+Importante:
+
+Utilize alocação dinâmica e não se esqueça de liberar a memória alocada ao final do código;
+Você pode usar sua função readline(), criada aula passada, para ler o nome das pessoas;
+Adote 6 casas decimais sempre que for imprimir um ponto flutuante.
+Exemplo de Entrada e Saída
+Entrada:
+2
+Jose Maria
+1.82
+90.5
+M
+123
+Maria Jose
+1.67
+68.0
+F
+321
+123
+321
+-1
+
+Saída:
+Jose Maria
+27.321580
+Pouco acima do peso
+Maria Jose
+24.382373
+Peso ideal

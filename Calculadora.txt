@@ -1,0 +1,25 @@
+Calculadora
+Neste exercicío, você deverá simular uma calculadora simples, isto é, dados dois números inteiros a e b, você deverá imprimir na tela o resultado de uma das quatro operações fundamentais: soma, subtração, multiplicação e divisão.
+
+Na primeira linha de entrada, haverá dois inteiros a e b. Na segunda linha, haverá um caracter ('+', '-', '*' ou '/', soma, subtração, multiplicação e divisão inteira, respectivamente), que irá determinar qual operação deverá ser feita.
+
+Imprima em uma linha a ? b, sendo '?' a operação pedida caso ela seja válida, caso o caracter lido seja diferente dos quatro listados acima imprima em uma linha apenas a mensagem de erro "Operacao invalida".
+
+Importante: É obrigatória a utilização da estrutura switch.
+
+Obs: A divisão inteira é aquela que não considera o resto da divisão, 3 / 4 = 0, por exemplo.
+
+Exemplo de Entrada e Saída
+Entrada:
+3 4
++
+
+Saída:
+7
+
+Entrada:
+4 5
+$
+
+Saída:
+Operacao invalida

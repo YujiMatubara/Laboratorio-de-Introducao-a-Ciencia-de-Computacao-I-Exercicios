@@ -1,0 +1,18 @@
+Conversão de Temperatura
+Para este exercício, você receberá na entrada um número K em ponto flutuante com duas casas decimais. Esse número representa uma temperatura na escala Kelvin, e sua tarefa será converter essa temperatura para as escalas Celsius e Fahrenheit.
+
+Considere K a temperatura em Kelvin, C em Celsius e F em Fahrenheit, temos:
+
+K = C + 273
+
+(K - 273) / 5 = (F - 32) / 9
+
+Imprima na saída dois números em ponto flutuante com duas casas decimais em duas linhas distintas, C e F.
+
+Exemplo de Entrada e Saída
+Entrada:
+273.00
+
+Saída:
+0.00
+32.00

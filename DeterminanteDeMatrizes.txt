@@ -1,0 +1,22 @@
+Determinante de Matrizes
+Para este exercício, você receberá na primeira linha de entrada um inteiro N (1 <= N <= 3), que corresponde à ordem de uma matriz quadrada.
+
+Nas próximas N linhas, haverá N inteiros, o que corresponderá à matriz em questão. Sua tarefa será imprimir na saída um único inteiro, o determinante dessa matriz.
+
+Obs: crie uma função que retorna o determinante de uma matriz passada como parâmetro.
+
+Exemplo de Entrada e Saída
+Entrada:
+1
+3
+
+Saída:
+3
+
+Entrada:
+2
+1 2
+3 4
+
+Saída:
+-2

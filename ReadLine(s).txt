@@ -1,0 +1,33 @@
+Read Line(s)
+Para este exercício, você deverá ler exatamente duas linhas da entrada e, para isso, você deverá primeiramente implementar as três funções descritas no final da descrição. A função Read Line retorna um tipo char *, e não recebe nenhum parâmetro. Ela serve para ler exatamente uma linha da entrada.
+
+A Read Line funciona da seguinte maneira: cria-se um vetor de char (heap) e lê-se da entrada um caracter por vez, fazendo um realloc no vetor para acrescentar esse novo caracter. Isso deve ser feito até que o caracter lido seja um '\n' (ENTER), momento no qual deve-se parar de ler da entrada. Ao final, é necessário ainda acrescentar um '\0' ao final da string (ele deve substituir o '\n', caso você tenha colocado-o no seu vetor de caracteres), para que a máscara %s do printf possa funcionar adequadamente.
+
+Com as duas linhas lidas, você deverá verificar se elas são iguais ou não. Caso elas sejam iguais você deverá imprimir na saída algo como "Linhas 1 e 2: [linha lida]". Caso contrário, imprima duas linhas: "Linha 1: [primeira linha lida]" e "Linha 2: [segunda linha lida]". Verifique os exemplos de entrada e saída para melhores esclarecimentos.
+
+Importante:
+
+Você deverá implementar três funções, seguindo o modelo a seguir:
+
+ char *read_line(); // lê uma linha da entrada 
+
+ int length(char *s); // retorna o tamanho da string recebida por parâmetro
+
+ int equal(char *a, char *b) // retorna 1 quando as strings são iguais e 0 caso contrário
+Não se esqueça de liberar a memória alocada ao final do código.
+
+Exemplo de Entrada e Saída
+Entrada:
+Exemplo de linha.
+Exemplo de linha.
+
+Saída:
+Linhas 1 e 2: Exemplo de linha.
+
+Entrada:
+Primeiro exemplo de linha
+Segundo exemplo de linha
+
+Saída:
+Linha 1: Primeiro exemplo de linha
+Linha 2: Segundo exemplo de linha

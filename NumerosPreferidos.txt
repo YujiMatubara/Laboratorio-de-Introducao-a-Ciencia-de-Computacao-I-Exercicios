@@ -1,0 +1,20 @@
+Números Preferidos
+Lucas e Cezar estudam juntos e receberam uma tarefa em dupla na escola: eles terão que entregar uma sequência de seus números preferidos, na ordem de preferência. Para isso, cada um deles escreveu sua própria sequência em um papel, sendo que Lucas escreveu N e Cezar M (0 < N <= 100 e 0 < M <= 100).
+
+Para entregar a tarefa, nenhum dos dois queria que seus números fossem menosprezados, por isso decidiram intercalar as duas sequências (isto é, montar uma terceira sequência colocando primeiro o primeiro número de uma delas, seguido do primeiro da outra, e por aí em diante) e, quando alguma delas acabasse, apenas ir acrescentando os números da sequência que ainda não acabou (confira o exemplo de entrada e saída para melhor compreensão). Para decidir qual seria a primeira sequência eles tiraram no cara ou coroa e quem ganhou foi o Lucas.
+
+Mas os dois amigos perderam tanto tempo decidindo como iriam entregar a tarefa que agora estão com medo de não conseguirem terminar a tempo da aula começar e, por isso, pediram a sua ajuda.
+
+Você irá receber na entrada dois inteiros N e M, o quantos números existem nas sequências de Lucas e Cezar, respectivamente. A linha seguinte conterá N inteiros, a sequência de Lucas. Na próxima linha haverá mais M inteiros, a sequência de Cezar.
+
+Na saída, você deverar imprimir duas linhas: a primeira contendo o tamanho da sequência formada e, na segunda, a sequência que os garotos entregarão como tarefa, levando em consideração que a sequência de Lucas foi a primeira na hora de intercalar as duas.
+
+Exemplo de Entrada e Saída
+Entrada:
+3 5
+1 2 3
+9 8 7 6 5
+
+Saída:
+8
+1 9 2 8 3 7 6 5
